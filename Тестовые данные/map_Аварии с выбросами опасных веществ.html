@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dcda8f7b847583f49bdd53f198c9de88 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dcda8f7b847583f49bdd53f198c9de88" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dcda8f7b847583f49bdd53f198c9de88 = L.map(
+                "map_dcda8f7b847583f49bdd53f198c9de88",
+                {
+                    center: [58.594189, 56.315815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_903332baa7aa95ad45fa2dc690dce2c5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+            var circle_marker_4b4d3994e160e228451bfa4319e480b1 = L.circleMarker(
+                [59.159248, 57.604019],
+                {"bubblingMouseEvents": true, "color": "hsl(57.902493, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(57.902493, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_a22cef0df244db6a6f4605ded7232b66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b42f73527ac28ecf99046e15fb0c3e8c = $(`<div id="html_b42f73527ac28ecf99046e15fb0c3e8c" style="width: 100.0%; height: 100.0%;">Александровский МО: 42.10%</div>`)[0];
+                popup_a22cef0df244db6a6f4605ded7232b66.setContent(html_b42f73527ac28ecf99046e15fb0c3e8c);
+            
+        
+
+        circle_marker_4b4d3994e160e228451bfa4319e480b1.bindPopup(popup_a22cef0df244db6a6f4605ded7232b66)
+        ;
+
+        
+    
+    
+            var circle_marker_c9d6bc7555701cbc10e7709717aa1a34 = L.circleMarker(
+                [56.892502, 55.65485],
+                {"bubblingMouseEvents": true, "color": "hsl(66.156793, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(66.156793, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_8aeb67c57ef52258d04ad5f68a20d1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712a52a811412c536785e5cc17af34cd = $(`<div id="html_712a52a811412c536785e5cc17af34cd" style="width: 100.0%; height: 100.0%;">Бардымский МО: 33.84%</div>`)[0];
+                popup_8aeb67c57ef52258d04ad5f68a20d1b1.setContent(html_712a52a811412c536785e5cc17af34cd);
+            
+        
+
+        circle_marker_c9d6bc7555701cbc10e7709717aa1a34.bindPopup(popup_8aeb67c57ef52258d04ad5f68a20d1b1)
+        ;
+
+        
+    
+    
+            var circle_marker_1d4947f9cd03392db1845b33e2f14149 = L.circleMarker(
+                [57.646149, 57.546398],
+                {"bubblingMouseEvents": true, "color": "hsl(74.411093, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(74.411093, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_d911c90b2df4a0e8ed8d8180f743e59a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64be96911a1733f50cdb139a9c2b3d5f = $(`<div id="html_64be96911a1733f50cdb139a9c2b3d5f" style="width: 100.0%; height: 100.0%;">Березовский МО: 25.59%</div>`)[0];
+                popup_d911c90b2df4a0e8ed8d8180f743e59a.setContent(html_64be96911a1733f50cdb139a9c2b3d5f);
+            
+        
+
+        circle_marker_1d4947f9cd03392db1845b33e2f14149.bindPopup(popup_d911c90b2df4a0e8ed8d8180f743e59a)
+        ;
+
+        
+    
+    
+            var circle_marker_59ef47c9b9d1e2540f87601ab4a61287 = L.circleMarker(
+                [57.542999, 54.459251],
+                {"bubblingMouseEvents": true, "color": "hsl(82.665393, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(82.665393, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_e31c975dea9cddcbca226f1663fa9024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a56226ea82fe6070fab544d59ddbd13 = $(`<div id="html_6a56226ea82fe6070fab544d59ddbd13" style="width: 100.0%; height: 100.0%;">Большесосновский МО: 17.33%</div>`)[0];
+                popup_e31c975dea9cddcbca226f1663fa9024.setContent(html_6a56226ea82fe6070fab544d59ddbd13);
+            
+        
+
+        circle_marker_59ef47c9b9d1e2540f87601ab4a61287.bindPopup(popup_e31c975dea9cddcbca226f1663fa9024)
+        ;
+
+        
+    
+    
+            var circle_marker_6b53b5df3e9b3446a46f58f063ee2f5d = L.circleMarker(
+                [58.1259, 54.444901],
+                {"bubblingMouseEvents": true, "color": "hsl(9.196930000000009, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(9.196930000000009, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_c493e308e5a87ff509341c9018b6e69d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae76d047866fff1ec10cff36c7c1333 = $(`<div id="html_dae76d047866fff1ec10cff36c7c1333" style="width: 100.0%; height: 100.0%;">Верещагинский ГО: 90.80%</div>`)[0];
+                popup_c493e308e5a87ff509341c9018b6e69d.setContent(html_dae76d047866fff1ec10cff36c7c1333);
+            
+        
+
+        circle_marker_6b53b5df3e9b3446a46f58f063ee2f5d.bindPopup(popup_c493e308e5a87ff509341c9018b6e69d)
+        ;
+
+        
+    
+    
+            var circle_marker_ec258fa1469dcf44679ff7fd3a975d7d = L.circleMarker(
+                [60.531399, 53.509449],
+                {"bubblingMouseEvents": true, "color": "hsl(91.73993, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(91.73993, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_c9a784a2f39fd2e3f2fb139068337b6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09f3702da4b9b56c3ff594775576eb14 = $(`<div id="html_09f3702da4b9b56c3ff594775576eb14" style="width: 100.0%; height: 100.0%;">Гайнский МО: 8.26%</div>`)[0];
+                popup_c9a784a2f39fd2e3f2fb139068337b6e.setContent(html_09f3702da4b9b56c3ff594775576eb14);
+            
+        
+
+        circle_marker_ec258fa1469dcf44679ff7fd3a975d7d.bindPopup(popup_c9a784a2f39fd2e3f2fb139068337b6e)
+        ;
+
+        
+    
+    
+            var circle_marker_b2aac11c02bd5dccf899e69a7c3608e5 = L.circleMarker(
+                [59.40147, 56.79948],
+                {"bubblingMouseEvents": true, "color": "hsl(25.717069999999993, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(25.717069999999993, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_966ba2e84238c00bcde65ae4f9b81901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fff22d32e58c7593270b92eeaac9cdd = $(`<div id="html_3fff22d32e58c7593270b92eeaac9cdd" style="width: 100.0%; height: 100.0%;">ГО город Березники: 74.28%</div>`)[0];
+                popup_966ba2e84238c00bcde65ae4f9b81901.setContent(html_3fff22d32e58c7593270b92eeaac9cdd);
+            
+        
+
+        circle_marker_b2aac11c02bd5dccf899e69a7c3608e5.bindPopup(popup_966ba2e84238c00bcde65ae4f9b81901)
+        ;
+
+        
+    
+    
+            var circle_marker_481494a37f01d67db1cbebe4c1e85106 = L.circleMarker(
+                [59.043308, 57.65451],
+                {"bubblingMouseEvents": true, "color": "hsl(84.317407, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(84.317407, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_c8b40babc180eedd8b46c9c8a609b519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c26b27e694d6abd799dab495a72342d0 = $(`<div id="html_c26b27e694d6abd799dab495a72342d0" style="width: 100.0%; height: 100.0%;">ГО город Кизел: 15.68%</div>`)[0];
+                popup_c8b40babc180eedd8b46c9c8a609b519.setContent(html_c26b27e694d6abd799dab495a72342d0);
+            
+        
+
+        circle_marker_481494a37f01d67db1cbebe4c1e85106.bindPopup(popup_c8b40babc180eedd8b46c9c8a609b519)
+        ;
+
+        
+    
+    
+            var circle_marker_864a35d20fc236ac876c18715e2991f6 = L.circleMarker(
+                [58.587849, 58.66275],
+                {"bubblingMouseEvents": true, "color": "hsl(76.063107, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(76.063107, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_77c930aa50ecd6ec59ce10fb98eb3458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a67b71605f49cd9cd78da6ad0d99eca = $(`<div id="html_5a67b71605f49cd9cd78da6ad0d99eca" style="width: 100.0%; height: 100.0%;">Горнозаводский ГО: 23.94%</div>`)[0];
+                popup_77c930aa50ecd6ec59ce10fb98eb3458.setContent(html_5a67b71605f49cd9cd78da6ad0d99eca);
+            
+        
+
+        circle_marker_864a35d20fc236ac876c18715e2991f6.bindPopup(popup_77c930aa50ecd6ec59ce10fb98eb3458)
+        ;
+
+        
+    
+    
+            var circle_marker_2e73d18b3c56fdffe0f7a50e94948985 = L.circleMarker(
+                [58.864891, 57.603008],
+                {"bubblingMouseEvents": true, "color": "hsl(78.6214207, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(78.6214207, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_49d3b223c89e5f5539948c1bba7b7919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536534b43affa7869ed8b551a91e9cc8 = $(`<div id="html_536534b43affa7869ed8b551a91e9cc8" style="width: 100.0%; height: 100.0%;">Губахинский МО: 21.38%</div>`)[0];
+                popup_49d3b223c89e5f5539948c1bba7b7919.setContent(html_536534b43affa7869ed8b551a91e9cc8);
+            
+        
+
+        circle_marker_2e73d18b3c56fdffe0f7a50e94948985.bindPopup(popup_49d3b223c89e5f5539948c1bba7b7919)
+        ;
+
+        
+    
+    
+            var circle_marker_1ff9045123578e5881244e012c0ec6e8 = L.circleMarker(
+                [58.4603, 56.408859],
+                {"bubblingMouseEvents": true, "color": "hsl(59.554507, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(59.554507, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_e9c86751214490f50a478df3ef6b0759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad021116a8f44cb41d9ddc972ee906e0 = $(`<div id="html_ad021116a8f44cb41d9ddc972ee906e0" style="width: 100.0%; height: 100.0%;">Добрянский ГО: 40.45%</div>`)[0];
+                popup_e9c86751214490f50a478df3ef6b0759.setContent(html_ad021116a8f44cb41d9ddc972ee906e0);
+            
+        
+
+        circle_marker_1ff9045123578e5881244e012c0ec6e8.bindPopup(popup_e9c86751214490f50a478df3ef6b0759)
+        ;
+
+        
+    
+    
+            var circle_marker_0666fc069760d878cf4a5ca3db1c1834 = L.circleMarker(
+                [56.948799, 54.820599],
+                {"bubblingMouseEvents": true, "color": "hsl(51.300207, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(51.300207, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_b569dae4ef3036780e40b5c230cd9e4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feee635678845e95ccaad0e6c66ff9fd = $(`<div id="html_feee635678845e95ccaad0e6c66ff9fd" style="width: 100.0%; height: 100.0%;">Еловский МО: 48.70%</div>`)[0];
+                popup_b569dae4ef3036780e40b5c230cd9e4c.setContent(html_feee635678845e95ccaad0e6c66ff9fd);
+            
+        
+
+        circle_marker_0666fc069760d878cf4a5ca3db1c1834.bindPopup(popup_b569dae4ef3036780e40b5c230cd9e4c)
+        ;
+
+        
+    
+    
+            var circle_marker_8c6709ab6563f2fe1657b349539e79c0 = L.circleMarker(
+                [57.73, 56.299999],
+                {"bubblingMouseEvents": true, "color": "hsl(43.04590700000001, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(43.04590700000001, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_40bff74cf2f1c80cd274729be927356b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d743eae44a8f3fb872ead2296673997 = $(`<div id="html_3d743eae44a8f3fb872ead2296673997" style="width: 100.0%; height: 100.0%;">ЗАТО Звездный: 56.95%</div>`)[0];
+                popup_40bff74cf2f1c80cd274729be927356b.setContent(html_3d743eae44a8f3fb872ead2296673997);
+            
+        
+
+        circle_marker_8c6709ab6563f2fe1657b349539e79c0.bindPopup(popup_40bff74cf2f1c80cd274729be927356b)
+        ;
+
+        
+    
+    
+            var circle_marker_aaf84353c5fc20f51519641192c3341a = L.circleMarker(
+                [58.628349, 55.767948],
+                {"bubblingMouseEvents": true, "color": "hsl(34.791607, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(34.791607, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_93d44364c95545662b83a3a93649b09d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90387932229c50f59c7738ef5f330d19 = $(`<div id="html_90387932229c50f59c7738ef5f330d19" style="width: 100.0%; height: 100.0%;">Ильинский ГО: 65.21%</div>`)[0];
+                popup_93d44364c95545662b83a3a93649b09d.setContent(html_90387932229c50f59c7738ef5f330d19);
+            
+        
+
+        circle_marker_aaf84353c5fc20f51519641192c3341a.bindPopup(popup_93d44364c95545662b83a3a93649b09d)
+        ;
+
+        
+    
+    
+            var circle_marker_43ef23494223309a7d055d42421ccdfd = L.circleMarker(
+                [58.451599, 55.008099],
+                {"bubblingMouseEvents": true, "color": "hsl(26.537307, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(26.537307, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_626bffdbff48497fd45decba02c78c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5bfe6d3240924d1aa4c9d369777be71 = $(`<div id="html_a5bfe6d3240924d1aa4c9d369777be71" style="width: 100.0%; height: 100.0%;">Карагайский МО: 73.46%</div>`)[0];
+                popup_626bffdbff48497fd45decba02c78c09.setContent(html_a5bfe6d3240924d1aa4c9d369777be71);
+            
+        
+
+        circle_marker_43ef23494223309a7d055d42421ccdfd.bindPopup(popup_626bffdbff48497fd45decba02c78c09)
+        ;
+
+        
+    
+    
+            var circle_marker_9b40759907604aca12884b25ef390f3e = L.circleMarker(
+                [57.337002, 57.582649],
+                {"bubblingMouseEvents": true, "color": "hsl(18.283006999999998, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(18.283006999999998, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_dae7bb7e8eb60834d7978ee5d5ff9c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_262228aaa20be18cad6359867ee41a3e = $(`<div id="html_262228aaa20be18cad6359867ee41a3e" style="width: 100.0%; height: 100.0%;">Кишертский МО: 81.72%</div>`)[0];
+                popup_dae7bb7e8eb60834d7978ee5d5ff9c76.setContent(html_262228aaa20be18cad6359867ee41a3e);
+            
+        
+
+        circle_marker_9b40759907604aca12884b25ef390f3e.bindPopup(popup_dae7bb7e8eb60834d7978ee5d5ff9c76)
+        ;
+
+        
+    
+    
+            var circle_marker_9da11663c5501c9ba0ca3d6ded8aefd0 = L.circleMarker(
+                [59.847252, 55.026051],
+                {"bubblingMouseEvents": true, "color": "hsl(10.028706999999997, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(10.028706999999997, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_b5753f4dae89344cf39c32dbbeacaed5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5501ea9b33deadebdca1e4405161dc62 = $(`<div id="html_5501ea9b33deadebdca1e4405161dc62" style="width: 100.0%; height: 100.0%;">Косинский МО: 89.97%</div>`)[0];
+                popup_b5753f4dae89344cf39c32dbbeacaed5.setContent(html_5501ea9b33deadebdca1e4405161dc62);
+            
+        
+
+        circle_marker_9da11663c5501c9ba0ca3d6ded8aefd0.bindPopup(popup_b5753f4dae89344cf39c32dbbeacaed5)
+        ;
+
+        
+    
+    
+            var circle_marker_510d5c4701a33b5a960990a303b42395 = L.circleMarker(
+                [59.738251, 54.407951],
+                {"bubblingMouseEvents": true, "color": "hsl(1.7744069999999965, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(1.7744069999999965, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_9fa47550d6d6f68386c485f5d8d2e90e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7778a17891105b4842cec46fe15d7b71 = $(`<div id="html_7778a17891105b4842cec46fe15d7b71" style="width: 100.0%; height: 100.0%;">Кочевский МО: 98.23%</div>`)[0];
+                popup_9fa47550d6d6f68386c485f5d8d2e90e.setContent(html_7778a17891105b4842cec46fe15d7b71);
+            
+        
+
+        circle_marker_510d5c4701a33b5a960990a303b42395.bindPopup(popup_9fa47550d6d6f68386c485f5d8d2e90e)
+        ;
+
+        
+    
+    
+            var circle_marker_edd15b17bf36690f25107ca4da8b7809 = L.circleMarker(
+                [60.736198, 57.996799],
+                {"bubblingMouseEvents": true, "color": "hsl(89.3520107, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(89.3520107, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_51d91f9fc68eeac09ca1373a5ec68a19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ca16d994b6d2fd882df7219c19edc64 = $(`<div id="html_7ca16d994b6d2fd882df7219c19edc64" style="width: 100.0%; height: 100.0%;">Красновишерский ГО: 10.65%</div>`)[0];
+                popup_51d91f9fc68eeac09ca1373a5ec68a19.setContent(html_7ca16d994b6d2fd882df7219c19edc64);
+            
+        
+
+        circle_marker_edd15b17bf36690f25107ca4da8b7809.bindPopup(popup_51d91f9fc68eeac09ca1373a5ec68a19)
+        ;
+
+        
+    
+    
+            var circle_marker_d46378d78fc73df33605cb5682f177b1 = L.circleMarker(
+                [58.079781, 55.731541],
+                {"bubblingMouseEvents": true, "color": "hsl(88.5265807, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(88.5265807, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_a3bb982defb49da8233755264d36722b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee69feb1c9ffb1d267e1e4502dc91a1e = $(`<div id="html_ee69feb1c9ffb1d267e1e4502dc91a1e" style="width: 100.0%; height: 100.0%;">Краснокамский ГО: 11.47%</div>`)[0];
+                popup_a3bb982defb49da8233755264d36722b.setContent(html_ee69feb1c9ffb1d267e1e4502dc91a1e);
+            
+        
+
+        circle_marker_d46378d78fc73df33605cb5682f177b1.bindPopup(popup_a3bb982defb49da8233755264d36722b)
+        ;
+
+        
+    
+    
+            var circle_marker_bec5f66c5ff7fdd3793883c43e639bc5 = L.circleMarker(
+                [59.060848, 54.638149],
+                {"bubblingMouseEvents": true, "color": "hsl(87.7011507, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(87.7011507, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_b5146ac2511c909542e34feec7a7d261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_150760b37fbbe66b258f222c4616ef3f = $(`<div id="html_150760b37fbbe66b258f222c4616ef3f" style="width: 100.0%; height: 100.0%;">Кудымкарский МО: 12.30%</div>`)[0];
+                popup_b5146ac2511c909542e34feec7a7d261.setContent(html_150760b37fbbe66b258f222c4616ef3f);
+            
+        
+
+        circle_marker_bec5f66c5ff7fdd3793883c43e639bc5.bindPopup(popup_b5146ac2511c909542e34feec7a7d261)
+        ;
+
+        
+    
+    
+            var circle_marker_75e10631613b70c4577dffd13c2ac616 = L.circleMarker(
+                [56.55085, 55.225948],
+                {"bubblingMouseEvents": true, "color": "hsl(69.5416907, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(69.5416907, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_e6e5283ffb7361423c7084b34f84dd4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f640bbd785bf2bdb3ccc793503f208db = $(`<div id="html_f640bbd785bf2bdb3ccc793503f208db" style="width: 100.0%; height: 100.0%;">Куединский МО: 30.46%</div>`)[0];
+                popup_e6e5283ffb7361423c7084b34f84dd4e.setContent(html_f640bbd785bf2bdb3ccc793503f208db);
+            
+        
+
+        circle_marker_75e10631613b70c4577dffd13c2ac616.bindPopup(popup_e6e5283ffb7361423c7084b34f84dd4e)
+        ;
+
+        
+    
+    
+            var circle_marker_a08f888c7e7428ae5d526c10bbf9e2f7 = L.circleMarker(
+                [57.53635, 56.560699],
+                {"bubblingMouseEvents": true, "color": "hsl(86.0502907, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(86.0502907, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_cdb4bbc6c40279b9e30f9575d9dc8d30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0954eb32d77dae48c0cbddc73b73f3a1 = $(`<div id="html_0954eb32d77dae48c0cbddc73b73f3a1" style="width: 100.0%; height: 100.0%;">Кунгурский МО: 13.95%</div>`)[0];
+                popup_cdb4bbc6c40279b9e30f9575d9dc8d30.setContent(html_0954eb32d77dae48c0cbddc73b73f3a1);
+            
+        
+
+        circle_marker_a08f888c7e7428ae5d526c10bbf9e2f7.bindPopup(popup_cdb4bbc6c40279b9e30f9575d9dc8d30)
+        ;
+
+        
+    
+    
+            var circle_marker_637467dbfe5fa88d97cbff075af4ae37 = L.circleMarker(
+                [58.10038, 57.804329],
+                {"bubblingMouseEvents": true, "color": "hsl(85.2248607, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(85.2248607, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_c20632c2be417f7a8a0b1fd78d0a097f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e0d66bf6e11118cc36f36c5074590e = $(`<div id="html_f1e0d66bf6e11118cc36f36c5074590e" style="width: 100.0%; height: 100.0%;">Лысьвенский ГО: 14.78%</div>`)[0];
+                popup_c20632c2be417f7a8a0b1fd78d0a097f.setContent(html_f1e0d66bf6e11118cc36f36c5074590e);
+            
+        
+
+        circle_marker_637467dbfe5fa88d97cbff075af4ae37.bindPopup(popup_c20632c2be417f7a8a0b1fd78d0a097f)
+        ;
+
+        
+    
+    
+            var circle_marker_402b4d7e21d5124308b7a154ff215031 = L.circleMarker(
+                [58.116798, 55.381302],
+                {"bubblingMouseEvents": true, "color": "hsl(84.3994307, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(84.3994307, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_a94478ba93bc14a9ebb5ec2194f4b1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fa6f0459586ef5b4d59ae03ee619d47 = $(`<div id="html_1fa6f0459586ef5b4d59ae03ee619d47" style="width: 100.0%; height: 100.0%;">Нытвенский ГО: 15.60%</div>`)[0];
+                popup_a94478ba93bc14a9ebb5ec2194f4b1e6.setContent(html_1fa6f0459586ef5b4d59ae03ee619d47);
+            
+        
+
+        circle_marker_402b4d7e21d5124308b7a154ff215031.bindPopup(popup_a94478ba93bc14a9ebb5ec2194f4b1e6)
+        ;
+
+        
+    
+    
+            var circle_marker_52f0a1eaa0b1069cef92ca7f0b08563b = L.circleMarker(
+                [56.499451, 56.906052],
+                {"bubblingMouseEvents": true, "color": "hsl(83.5740007, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(83.5740007, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_4b89fa6cbd1157a6e0885b7ed1c9a432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4931cbf53804ab9a0ac516a7adcb52f8 = $(`<div id="html_4931cbf53804ab9a0ac516a7adcb52f8" style="width: 100.0%; height: 100.0%;">Октябрьский ГО: 16.43%</div>`)[0];
+                popup_4b89fa6cbd1157a6e0885b7ed1c9a432.setContent(html_4931cbf53804ab9a0ac516a7adcb52f8);
+            
+        
+
+        circle_marker_52f0a1eaa0b1069cef92ca7f0b08563b.bindPopup(popup_4b89fa6cbd1157a6e0885b7ed1c9a432)
+        ;
+
+        
+    
+    
+            var circle_marker_7e491a310f3cccbf454f251562405170 = L.circleMarker(
+                [57.06525, 56.740349],
+                {"bubblingMouseEvents": true, "color": "hsl(82.7485707, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(82.7485707, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_a0a0ceff56fc3e7f2a5ac04694b236d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae59e6ebdd2c04721be3f64c0a8d182b = $(`<div id="html_ae59e6ebdd2c04721be3f64c0a8d182b" style="width: 100.0%; height: 100.0%;">Ординский МО: 17.25%</div>`)[0];
+                popup_a0a0ceff56fc3e7f2a5ac04694b236d8.setContent(html_ae59e6ebdd2c04721be3f64c0a8d182b);
+            
+        
+
+        circle_marker_7e491a310f3cccbf454f251562405170.bindPopup(popup_a0a0ceff56fc3e7f2a5ac04694b236d8)
+        ;
+
+        
+    
+    
+            var circle_marker_9d6e8553ef2db051254e844dbb555baf = L.circleMarker(
+                [57.284698, 55.4519],
+                {"bubblingMouseEvents": true, "color": "hsl(81.9231407, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(81.9231407, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_0a57595862c7e6427f5a6e7345451b3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6178e61333e82767098e754de921c572 = $(`<div id="html_6178e61333e82767098e754de921c572" style="width: 100.0%; height: 100.0%;">Осинский ГО: 18.08%</div>`)[0];
+                popup_0a57595862c7e6427f5a6e7345451b3d.setContent(html_6178e61333e82767098e754de921c572);
+            
+        
+
+        circle_marker_9d6e8553ef2db051254e844dbb555baf.bindPopup(popup_0a57595862c7e6427f5a6e7345451b3d)
+        ;
+
+        
+    
+    
+            var circle_marker_63c015536d80bde0f0f4a685ae7a2c67 = L.circleMarker(
+                [57.653198, 55.198002],
+                {"bubblingMouseEvents": true, "color": "hsl(81.0977107, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(81.0977107, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_a77099614d57008e7feade3c4a5112d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d2fce57dab58704b045159409e14ca = $(`<div id="html_e6d2fce57dab58704b045159409e14ca" style="width: 100.0%; height: 100.0%;">Оханский ГО: 18.90%</div>`)[0];
+                popup_a77099614d57008e7feade3c4a5112d7.setContent(html_e6d2fce57dab58704b045159409e14ca);
+            
+        
+
+        circle_marker_63c015536d80bde0f0f4a685ae7a2c67.bindPopup(popup_a77099614d57008e7feade3c4a5112d7)
+        ;
+
+        
+    
+    
+            var circle_marker_46d5328520ac7ad9b4dfe1f1792dec9c = L.circleMarker(
+                [57.894001, 54.599201],
+                {"bubblingMouseEvents": true, "color": "hsl(80.2722807, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(80.2722807, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_46f35eea2bbaf8a211ebc9cbca5b7956 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c04b03aaf201668d209893d0a0ede7af = $(`<div id="html_c04b03aaf201668d209893d0a0ede7af" style="width: 100.0%; height: 100.0%;">Очерский ГО: 19.73%</div>`)[0];
+                popup_46f35eea2bbaf8a211ebc9cbca5b7956.setContent(html_c04b03aaf201668d209893d0a0ede7af);
+            
+        
+
+        circle_marker_46d5328520ac7ad9b4dfe1f1792dec9c.bindPopup(popup_46f35eea2bbaf8a211ebc9cbca5b7956)
+        ;
+
+        
+    
+    
+            var circle_marker_1fe151ecd449e0815c28d56660a98155 = L.circleMarker(
+                [57.83485, 56.09235],
+                {"bubblingMouseEvents": true, "color": "hsl(79.4468507, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(79.4468507, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_52af3a5efeede758706bad1df714926c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d6690cfff6a0781cf3412c78aa2ec6 = $(`<div id="html_c3d6690cfff6a0781cf3412c78aa2ec6" style="width: 100.0%; height: 100.0%;">Пермский ГО: 20.55%</div>`)[0];
+                popup_52af3a5efeede758706bad1df714926c.setContent(html_c3d6690cfff6a0781cf3412c78aa2ec6);
+            
+        
+
+        circle_marker_1fe151ecd449e0815c28d56660a98155.bindPopup(popup_52af3a5efeede758706bad1df714926c)
+        ;
+
+        
+    
+    
+            var circle_marker_9cbf5897caaf1945752a447e0111e09b = L.circleMarker(
+                [57.997169, 56.235279],
+                {"bubblingMouseEvents": true, "color": "hsl(67.808807, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(67.808807, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_626b648f2a4d3fb7ee842063ca278bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93d9e80dcec38ed4bc60fdf154d2d21 = $(`<div id="html_a93d9e80dcec38ed4bc60fdf154d2d21" style="width: 100.0%; height: 100.0%;">Пермский МО: 32.19%</div>`)[0];
+                popup_626b648f2a4d3fb7ee842063ca278bd0.setContent(html_a93d9e80dcec38ed4bc60fdf154d2d21);
+            
+        
+
+        circle_marker_9cbf5897caaf1945752a447e0111e09b.bindPopup(popup_626b648f2a4d3fb7ee842063ca278bd0)
+        ;
+
+        
+    
+    
+            var circle_marker_df019a5962653b72d12541c582d25cc0 = L.circleMarker(
+                [58.468498, 54.214649],
+                {"bubblingMouseEvents": true, "color": "hsl(77.7959907, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(77.7959907, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_e8ba7ae8320e1763810bc03829150b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0a7daebf3bf8675de8bf113f0e86bc4 = $(`<div id="html_d0a7daebf3bf8675de8bf113f0e86bc4" style="width: 100.0%; height: 100.0%;">Сивинский МО: 22.20%</div>`)[0];
+                popup_e8ba7ae8320e1763810bc03829150b98.setContent(html_d0a7daebf3bf8675de8bf113f0e86bc4);
+            
+        
+
+        circle_marker_df019a5962653b72d12541c582d25cc0.bindPopup(popup_e8ba7ae8320e1763810bc03829150b98)
+        ;
+
+        
+    
+    
+            var circle_marker_86747c93f4c65b4aca073c4bbd38dbe2 = L.circleMarker(
+                [59.63625, 56.766788],
+                {"bubblingMouseEvents": true, "color": "hsl(76.9705607, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(76.9705607, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_2aa2ba5df84e7a699da8f075c2c01d8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16dd360f5262775aed46478e06523b03 = $(`<div id="html_16dd360f5262775aed46478e06523b03" style="width: 100.0%; height: 100.0%;">Соликамский ГО: 23.03%</div>`)[0];
+                popup_2aa2ba5df84e7a699da8f075c2c01d8d.setContent(html_16dd360f5262775aed46478e06523b03);
+            
+        
+
+        circle_marker_86747c93f4c65b4aca073c4bbd38dbe2.bindPopup(popup_2aa2ba5df84e7a699da8f075c2c01d8d)
+        ;
+
+        
+    
+    
+            var circle_marker_24c0dcbb55c072a84b5beee3c2e34892 = L.circleMarker(
+                [57.056, 57.564701],
+                {"bubblingMouseEvents": true, "color": "hsl(76.1451307, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(76.1451307, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_50e65aba70a015d9cc922cc44dcfd18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c309079f52f082e9939da915502349ef = $(`<div id="html_c309079f52f082e9939da915502349ef" style="width: 100.0%; height: 100.0%;">Суксунский ГО: 23.85%</div>`)[0];
+                popup_50e65aba70a015d9cc922cc44dcfd18b.setContent(html_c309079f52f082e9939da915502349ef);
+            
+        
+
+        circle_marker_24c0dcbb55c072a84b5beee3c2e34892.bindPopup(popup_50e65aba70a015d9cc922cc44dcfd18b)
+        ;
+
+        
+    
+    
+            var circle_marker_e8af75d8794a5dc5f0ae308fe379de5f = L.circleMarker(
+                [56.864948, 56.528149],
+                {"bubblingMouseEvents": true, "color": "hsl(75.3197007, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(75.3197007, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_6d20528fbbc0d2f36e2bbd80306b0045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ff407729734b0629af34db1e4bf7e21 = $(`<div id="html_7ff407729734b0629af34db1e4bf7e21" style="width: 100.0%; height: 100.0%;">Уинский МО: 24.68%</div>`)[0];
+                popup_6d20528fbbc0d2f36e2bbd80306b0045.setContent(html_7ff407729734b0629af34db1e4bf7e21);
+            
+        
+
+        circle_marker_e8af75d8794a5dc5f0ae308fe379de5f.bindPopup(popup_6d20528fbbc0d2f36e2bbd80306b0045)
+        ;
+
+        
+    
+    
+            var circle_marker_1a95ec83e07cf0a8d33256357227598c = L.circleMarker(
+                [56.764381, 54.106319],
+                {"bubblingMouseEvents": true, "color": "hsl(74.4942707, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(74.4942707, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_1164e1274381692833af2717d2e86fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e528e62dff325a1e66734097993602e = $(`<div id="html_5e528e62dff325a1e66734097993602e" style="width: 100.0%; height: 100.0%;">Чайковский ГО: 25.51%</div>`)[0];
+                popup_1164e1274381692833af2717d2e86fa2.setContent(html_5e528e62dff325a1e66734097993602e);
+            
+        
+
+        circle_marker_1a95ec83e07cf0a8d33256357227598c.bindPopup(popup_1164e1274381692833af2717d2e86fa2)
+        ;
+
+        
+    
+    
+            var circle_marker_2f88ffe8288d799ec6e4658a2d56b5d8 = L.circleMarker(
+                [57.307152, 54.738998],
+                {"bubblingMouseEvents": true, "color": "hsl(73.6688407, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(73.6688407, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_b4b5ed04a6d56b513856d5e45389c4ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7daef97349e3e21f47ed204f0c109233 = $(`<div id="html_7daef97349e3e21f47ed204f0c109233" style="width: 100.0%; height: 100.0%;">Частинский МО: 26.33%</div>`)[0];
+                popup_b4b5ed04a6d56b513856d5e45389c4ea.setContent(html_7daef97349e3e21f47ed204f0c109233);
+            
+        
+
+        circle_marker_2f88ffe8288d799ec6e4658a2d56b5d8.bindPopup(popup_b4b5ed04a6d56b513856d5e45389c4ea)
+        ;
+
+        
+    
+    
+            var circle_marker_93e018b3baaf35471a962e8b35f54137 = L.circleMarker(
+                [60.683201, 56.852001],
+                {"bubblingMouseEvents": true, "color": "hsl(72.84341069999999, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(72.84341069999999, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_d6512834e52bafd26e4330536d816cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44fae24aa16cdbeb1815ed9117a21351 = $(`<div id="html_44fae24aa16cdbeb1815ed9117a21351" style="width: 100.0%; height: 100.0%;">Чердынский ГО: 27.16%</div>`)[0];
+                popup_d6512834e52bafd26e4330536d816cb3.setContent(html_44fae24aa16cdbeb1815ed9117a21351);
+            
+        
+
+        circle_marker_93e018b3baaf35471a962e8b35f54137.bindPopup(popup_d6512834e52bafd26e4330536d816cb3)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d488d37ae1675b690409263f8eccfb = L.circleMarker(
+                [56.532349, 56.1903],
+                {"bubblingMouseEvents": true, "color": "hsl(72.0179807, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(72.0179807, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_7df46f0cb1df3d3566d66f6f9257ced7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb050e2eb188033f4184a43080dcfb38 = $(`<div id="html_fb050e2eb188033f4184a43080dcfb38" style="width: 100.0%; height: 100.0%;">Чернушинский ГО: 27.98%</div>`)[0];
+                popup_7df46f0cb1df3d3566d66f6f9257ced7.setContent(html_fb050e2eb188033f4184a43080dcfb38);
+            
+        
+
+        circle_marker_d8d488d37ae1675b690409263f8eccfb.bindPopup(popup_7df46f0cb1df3d3566d66f6f9257ced7)
+        ;
+
+        
+    
+    
+            var circle_marker_71ffad7a80b37fc97d0d953cfb856497 = L.circleMarker(
+                [58.288189, 57.82666],
+                {"bubblingMouseEvents": true, "color": "hsl(71.1925507, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(71.1925507, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_ca86911f509cc4f3f0a9c00ce846a067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_117e38f4fca9da5a7f92dabaa4b6d4c3 = $(`<div id="html_117e38f4fca9da5a7f92dabaa4b6d4c3" style="width: 100.0%; height: 100.0%;">Чусовской ГО: 28.81%</div>`)[0];
+                popup_ca86911f509cc4f3f0a9c00ce846a067.setContent(html_117e38f4fca9da5a7f92dabaa4b6d4c3);
+            
+        
+
+        circle_marker_71ffad7a80b37fc97d0d953cfb856497.bindPopup(popup_ca86911f509cc4f3f0a9c00ce846a067)
+        ;
+
+        
+    
+    
+            var circle_marker_88106085c46dcb6cf147f299ff95ae4a = L.circleMarker(
+                [59.43425, 54.231152],
+                {"bubblingMouseEvents": true, "color": "hsl(70.3671207, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(70.3671207, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_9ba9beb14c75e7c186e3a4f4713ca0d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d2edcf87450b3ee9da1ff2f2aaac444 = $(`<div id="html_1d2edcf87450b3ee9da1ff2f2aaac444" style="width: 100.0%; height: 100.0%;">Юрлинский МО: 29.63%</div>`)[0];
+                popup_9ba9beb14c75e7c186e3a4f4713ca0d0.setContent(html_1d2edcf87450b3ee9da1ff2f2aaac444);
+            
+        
+
+        circle_marker_88106085c46dcb6cf147f299ff95ae4a.bindPopup(popup_9ba9beb14c75e7c186e3a4f4713ca0d0)
+        ;
+
+        
+    
+    
+            var circle_marker_f9a971c2a36f117d0bd8127c4070b18a = L.circleMarker(
+                [59.066898, 55.483799],
+                {"bubblingMouseEvents": true, "color": "hsl(86.8757207, 100%, 50%)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hsl(86.8757207, 100%, 50%)", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_dcda8f7b847583f49bdd53f198c9de88);
+        
+    
+        var popup_2fa7c4a4ceb4ad45ddb28a6802e5a02c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ded47502d221cc9b7c2f2bf34b94cd99 = $(`<div id="html_ded47502d221cc9b7c2f2bf34b94cd99" style="width: 100.0%; height: 100.0%;">Юсьвинский МО: 13.12%</div>`)[0];
+                popup_2fa7c4a4ceb4ad45ddb28a6802e5a02c.setContent(html_ded47502d221cc9b7c2f2bf34b94cd99);
+            
+        
+
+        circle_marker_f9a971c2a36f117d0bd8127c4070b18a.bindPopup(popup_2fa7c4a4ceb4ad45ddb28a6802e5a02c)
+        ;
+
+        
+    
+</script>
+</html>
